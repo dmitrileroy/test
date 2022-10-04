@@ -13,6 +13,7 @@
 **********************************************************************/
 
 import { Avatar, Alert, Radio, FormControlLabel, Checkbox } from '@mui/material';
+import { Helmet } from 'react-helmet';
 import Avatar1Image from 'src/hello/world/Frame4_Avatar_1.png';
 import { styled } from '@mui/material/styles';
 import Frame11 from 'src/components/Frame11/Frame11';
@@ -121,6 +122,10 @@ function Frame4(props: Frame4Props): JSX.Element {
   const {data, fns} = useFrame4();
   return (
     <Frame41 className={props.className} >
+      <Helmet>
+        <title>Test</title>
+        <meta name='description' content='Hahahahha' />
+      </Helmet>
       <Frame5  src={data.meta.src} alt={"meow"}/>
       <Frame111   />
       <Frame13 >

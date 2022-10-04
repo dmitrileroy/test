@@ -15,11 +15,6 @@
 
 
 
-export interface Frame4Props {
-  className?: any;
-};
-
-
 
 export interface Frame2Props {
   className?: any;
@@ -28,9 +23,18 @@ export interface Frame2Props {
 
 
 
+
 export interface Frame14Props {
   className?: any;
 };
+
+
+
+
+export interface Frame4Props {
+  className?: any;
+};
+
 
 
 
