@@ -13,18 +13,22 @@
 *
 **********************************************************************/
 
+
+export interface Frame4Props {
+  className?: any;
+};
+
+
 export interface Frame2Props {
   className?: any;
   meta: any;
 };
 
+
 export interface Frame14Props {
   className?: any;
 };
 
-export interface Frame4Props {
-  className?: any;
-};
 
 export interface Mui59TestProps {
   className?: any;

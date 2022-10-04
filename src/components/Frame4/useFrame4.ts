@@ -15,7 +15,8 @@ const useFrame4 = () => {
   const hello = (): any => {
   return "48"};
 
-  let fns: any = {hello};
+  const bye = (): any => {};
+  let fns: any = {hello, bye};
   return {data, fns};
 }
 
