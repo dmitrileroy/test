@@ -125,7 +125,7 @@ function Frame4(props: Frame4Props): JSX.Element {
       <Frame111   />
       <Frame13 >
         <Text fns={fns} >
-          {fns.hello}
+          {`Text`}
             </Text>
       </Frame13>
       <Avatar1 variant="rounded" src={Avatar1Image} alt={"Avatar"}   />
